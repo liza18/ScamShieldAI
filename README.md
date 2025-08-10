@@ -46,13 +46,13 @@ npm start
 
 4. Open your browser at http://localhost:3000
 
-//Usage
+### Usage
 When you start a call in the frontend app, it captures microphone audio and sends it to the backend.
 The backend transcribes and analyzes the audio to detect potential scams.
 The interface displays real-time transcription and alert levels.
 If fraud signals are detected, the app issues visual and voice alerts.
 
-//Main Dependencies
+### Main Dependencies
 
 Backend:
 fastapi
@@ -64,11 +64,11 @@ Frontend:
 react
 elevenlabs text-to-speech API
 
-//Team
+### Team
 Elizabeth Aguilar
 Obed Casillas
 
-//Important Notes
+###Important Notes
 Configure your ElevenLabs API key securely; do not publish it in public repositories.
 Ensure the backend is running before starting the frontend.
 For best performance, use an updated browser with microphone permissions enabled.
