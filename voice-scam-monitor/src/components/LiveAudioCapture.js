@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 
 export async function getElevenLabsTTS(text) {
-  const apiKey = "sk_450dde72973f75305415e61276a75dd74d0813da8835fadd";
+  const apiKey = "YOUR API KEY";
   const voiceId = "21m00Tcm4TlvDq8ikWAM";
 
   const response = await fetch(`https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`, {
